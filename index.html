@@ -14,10 +14,21 @@
             max-width: 100%;
             vertical-align: top;
         }
+
+        img#responsive {
+            display: none;
+        }
+
+        @media screen and (max-width: 768px){
+            img#responsive {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Invie Guitars. Simply the Best!!</h1>
+    <img src="invie-responsive.png" alt="" id="responsive">
     <img src="header.jpg" alt="header">
     <img src="hero.webp" alt="hero">
     <img src="clasica.webp" alt="clasica">
